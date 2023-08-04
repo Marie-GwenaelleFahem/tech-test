@@ -6,7 +6,7 @@
 
 ## Stack
 
-HTML/CSS/JS
+HTML/CSS
 
 ## Outils
 
