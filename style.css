@@ -195,9 +195,13 @@ section {
     transform: translateY(-5px);
 }
 
-.card:hover img:first-child {
+.card:hover > img:first-child {
     filter: brightness(35%);
     transition: .3s;
+}
+
+.card:hover .text-content {
+    opacity: 1;
 }
 
 .card-description {
@@ -215,4 +219,15 @@ section {
     font-size: 14px;
     font-weight: 600;
     color: #667085;
+}
+
+.text-content {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 12px;
 }
