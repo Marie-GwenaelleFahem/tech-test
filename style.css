@@ -180,7 +180,7 @@ section {
 }
 
 .card {
-    /* width: 250px; */
+    position: relative;
     padding: 12px;
     height: 186px;
     margin-bottom: 30px;
